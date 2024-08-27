@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from utils import find_java_files
 from ocurrence_analysis import analyze_occurrence
-from correlation_analysis import analyze_correlation
 from chi_squared_test_by_design_smell import chi_square_test_analysis, combine_p_values
 from generic_chi_squared_test import chi_square_test_any_smell
 from data_manipulation import (
